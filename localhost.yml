@@ -1,0 +1,27 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no           
+  sudo: no
+  roles:
+    - hnakamur.homebrew-packages
+    - hnakamur.homebrew-cask-packages
+  vars:
+    homebrew_packages_taps:
+    - homebrew/binary
+    - homebrew/dupes
+    - caskroom/cask
+    homebrew_packages_packages:
+    - { name: ansible }
+    - { name: git }
+    - { name: scala }
+    - { name: sbt }
+    - { name: mysql }
+    homebrew_cask_packages_packages:
+    - google-chrome
+    - firefox
+    - java
+    - intellij-idea
+    - slack
+    - atom
+    - skype
+    - hipchat
