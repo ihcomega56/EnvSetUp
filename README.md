@@ -4,10 +4,9 @@ _EnvSetUp直下で作業してね ₍₍ ◝(・ω・)◟ ⁾⁾_
 1. (Xcodeが入っていない場合)Xcodeをインストールする  
     `sudo xcodebuild -license`  
 1. Xcodeを立ち上げてライセンスに同意する  
-1. (Homebrewが入っていない場合)Homebrewをインストールする  
-    `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`  
-1. (Ansibleが入っていない場合)Ansibleと必要なRolesをインストールする  
+1. Homebrewをインストールする + パッケージの更新を確認する + Ansibleと必要なRolesをインストールする  
     `sh ./setup.sh`  
+    ※パッケージの更新確認のみでよければ `brew update`を実行する  
 1. Ansibleを実行する  
     `ansible-playbook localhost.yml -i hosts`  
 
