@@ -8,6 +8,12 @@ echo '₍₍ ◝('ω'◝) ⁾⁾ ₍₍ (◟'ω')◟ ⁾⁾\n'
 echo 'Homebrewをインストール...'
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo 'Homebrew-caskをインストール...'
+brew install caskroom/cask/brew-cask
+
+echo 'Homebrew-versionsをインストール...'
+brew tap caskroom/versions
+
 echo 'パッケージたちの更新を確認...'
 brew update
 
