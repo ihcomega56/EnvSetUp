@@ -14,9 +14,6 @@ brew install caskroom/cask/brew-cask
 echo 'Homebrew-versionsをインストール...'
 brew tap caskroom/versions
 
-echo 'パッケージたちの更新を確認...'
-brew update
-
 echo 'Ansibleをインストール...'
 brew install ansible
 

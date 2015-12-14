@@ -28,3 +28,5 @@
     - chromecast
     - iterm2
     - visual-studio-code
+  tasks:
+    - homebrew: update_homebrew=yes
