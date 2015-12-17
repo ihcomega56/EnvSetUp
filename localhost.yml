@@ -16,6 +16,7 @@
     - { name: scala }
     - { name: sbt }
     - { name: mysql }
+    - { name: wget }
     homebrew_cask_packages_packages:
     - google-chrome
     - firefox
