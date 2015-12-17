@@ -29,5 +29,6 @@
     - chromecast
     - iterm2
     - visual-studio-code
+    - alcatraz
   tasks:
     - homebrew: update_homebrew=yes
