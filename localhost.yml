@@ -30,5 +30,6 @@
     - iterm2
     - visual-studio-code
     - alcatraz
+    - android-studio
   tasks:
     - homebrew: update_homebrew=yes
