@@ -31,5 +31,6 @@
     - visual-studio-code
     - alcatraz
     - android-studio
+    - karabiner
   tasks:
     - homebrew: update_homebrew=yes
