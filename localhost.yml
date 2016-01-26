@@ -17,6 +17,7 @@
     - { name: sbt }
     - { name: mysql }
     - { name: wget }
+    - { name: npm }
     homebrew_cask_packages_packages:
     - google-chrome
     - firefox
