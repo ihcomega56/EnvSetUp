@@ -18,6 +18,7 @@
     - { name: mysql }
     - { name: wget }
     - { name: npm }
+    - { name: dos2unix }
     homebrew_cask_packages_packages:
     - google-chrome
     - firefox
