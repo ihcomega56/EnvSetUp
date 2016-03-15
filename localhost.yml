@@ -36,5 +36,6 @@
     - android-studio
     - karabiner
     - virtualbox
+    - dockertoolbox
   tasks:
     - homebrew: update_homebrew=yes
