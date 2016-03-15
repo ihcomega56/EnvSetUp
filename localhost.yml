@@ -19,6 +19,7 @@
     - { name: wget }
     - { name: npm }
     - { name: dos2unix }
+    - { name: docker-machine }
     homebrew_cask_packages_packages:
     - google-chrome
     - firefox
@@ -34,5 +35,6 @@
     - alcatraz
     - android-studio
     - karabiner
+    - virtualbox
   tasks:
     - homebrew: update_homebrew=yes
